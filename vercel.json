@@ -2,14 +2,14 @@
     "version": 2,
     "name": "disqusjs-proxy",
     "alias": [
-        "duosuo.nobige.cn"
+        "disqus.eallion.com"
     ],
     "routes": [
         {
             "src": "/(.*)",
             "headers": {
                 "cache-control": "public, max-age=21600",
-                "Access-Control-Allow-Origin":"https://nobige.cn"
+                "Access-Control-Allow-Origin":"https://eallion.com"
             },
             "dest": "https://disqus.com/api/$1"
         }
